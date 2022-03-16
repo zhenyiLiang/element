@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import entry from './app';
 import VueRouter from 'vue-router';
-import Element from 'main/index.js';
+// import Element from 'main/index.js';
+import Element from 'element-ui';
 import hljs from 'highlight.js';
 import routes from './route.config';
 import demoBlock from './components/demo-block';
@@ -11,7 +12,8 @@ import SideNav from './components/side-nav';
 import FooterNav from './components/footer-nav';
 import title from './i18n/title';
 
-import 'packages/theme-chalk/src/index.scss';
+// import 'packages/theme-chalk/src/index.scss';
+import '../node_modules/element-ui/packages/theme-chalk/src/index.scss';
 import './demo-styles/index.scss';
 import './assets/styles/common.css';
 import './assets/styles/fonts/style.css';
